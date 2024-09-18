@@ -11,5 +11,6 @@ public class Lab027 {
         System.out.printf("Division of "+"%f / %f = %f \n",a,b,a/b);
         System.out.printf("Modulus of "+"%f modulus %f = %f \n",a,b,a%b);
 
+
     }
 }
