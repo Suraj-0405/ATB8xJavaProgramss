@@ -5,10 +5,11 @@ public class Lab027 {
         double a = 34;
         double b = 10;
 
-        System.out.println("%f + %f = %f");
-        System.out.println(a-b);
-        System.out.println(a*b);
-        System.out.println(a/b);
-        System.out.println(a%b);
+        System.out.printf("Addition of "+"%f + %f = %f \n",a,b,a+b);
+        System.out.printf("Subtraction of "+"%f - %f = %f \n",a,b,a-b);
+        System.out.printf("Multiplication of "+"%f * %f = %f \n",a,b,a*b);
+        System.out.printf("Division of "+"%f / %f = %f \n",a,b,a/b);
+        System.out.printf("Modulus of "+"%f modulus %f = %f \n",a,b,a%b);
+
     }
 }
